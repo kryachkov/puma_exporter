@@ -1,0 +1,39 @@
+{
+  "started_at": "2020-12-27T15:40:48Z",
+  "workers": 2,
+  "phase": 0,
+  "booted_workers": 2,
+  "old_workers": 0,
+  "worker_status": [
+    {
+      "started_at": "2020-12-27T15:40:48Z",
+      "pid": 12,
+      "index": 0,
+      "phase": 0,
+      "booted": true,
+      "last_checkin": "2020-12-27T15:43:03Z",
+      "last_status": {
+        "backlog": 0,
+        "running": 5,
+        "pool_capacity": 16,
+        "max_threads": 16,
+        "requests_count": 0
+      }
+    },
+    {
+      "started_at": "2020-12-27T15:40:48Z",
+      "pid": 14,
+      "index": 1,
+      "phase": 0,
+      "booted": true,
+      "last_checkin": "2020-12-27T15:43:03Z",
+      "last_status": {
+        "backlog": 0,
+        "running": 5,
+        "pool_capacity": 16,
+        "max_threads": 16,
+        "requests_count": 0
+      }
+    }
+  ]
+}

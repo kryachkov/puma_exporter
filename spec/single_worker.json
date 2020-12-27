@@ -1,0 +1,8 @@
+{
+  "started_at": "2020-12-27T15:43:27Z",
+  "backlog": 0,
+  "running": 5,
+  "pool_capacity": 16,
+  "max_threads": 16,
+  "requests_count": 0
+}

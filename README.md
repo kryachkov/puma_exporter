@@ -3,13 +3,13 @@
 ```
 $ curl localhost:9394/metrics
 # Number of connections waiting for puma thread to serve it
-puma_backlog 0
+puma_backlog{worker_index=0} 0
 # Number of puma threads spawned
-puma_running 5
+puma_running{worker_index=0} 5
 # Number of requests puma is capable of taking right now
-puma_pool_capacity 16
+puma_pool_capacity{worker_index=0} 16
 # Maximum number of puma threads
-puma_max_threads 16
+puma_max_threads{worker_index=0} 16
 ```
 
 ## Configuration:

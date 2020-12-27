@@ -7,6 +7,7 @@ COPY Gemfile .
 COPY Gemfile.lock .
 RUN bundle install
 COPY puma_exporter.rb .
+COPY stats_extractor.rb .
 COPY config.ru .
 COPY puma.rb .
 ENTRYPOINT ["bundle", "exec", "puma", "-C", "puma.rb", "config.ru"]
