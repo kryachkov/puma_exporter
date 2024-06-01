@@ -1,4 +1,6 @@
-# puma-exporter: exports puma stats for Prometheus
+# Puma exporter
+
+Prometheus exporter for Puma (https://puma.io) metrics
 
 ```
 $ curl localhost:9394/metrics
