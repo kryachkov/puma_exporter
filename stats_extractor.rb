@@ -17,7 +17,7 @@ class StatsExtractor
 
     gathered_stats.map do |index, worker_stats|
       worker_stats.map do |k, v|
-        "puma_#{k}{worker_index=#{index}} #{v}"
+        "puma_#{k}{worker_index=\"#{index}\"} #{v}"
       end
     end.flatten
   end
