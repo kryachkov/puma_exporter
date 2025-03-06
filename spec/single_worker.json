@@ -4,5 +4,5 @@
   "running": 5,
   "pool_capacity": 16,
   "max_threads": 16,
-  "requests_count": 0
+  "requests_count": 1337
 }

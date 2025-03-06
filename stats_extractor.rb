@@ -1,5 +1,5 @@
 class StatsExtractor
-  STATS_OF_INTEREST = %w(backlog running pool_capacity max_threads).freeze
+  STATS_OF_INTEREST = %w(backlog running pool_capacity max_threads requests_count).freeze
 
   def initialize(puma_stats)
     @puma_stats = puma_stats

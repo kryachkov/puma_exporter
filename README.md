@@ -12,6 +12,8 @@ puma_running{worker_index="0"} 5
 puma_pool_capacity{worker_index="0"} 16
 # Maximum number of puma threads
 puma_max_threads{worker_index="0"} 16
+# Number of requests this worker has served since starting
+puma_requests_count{worker_index="0"} 1337
 ```
 
 ## Configuration:
