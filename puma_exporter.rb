@@ -9,6 +9,8 @@ class PumaExporter < Sinatra::Base
   end
 
   get '/metrics' do
+    content_type 'text/plain'
+
     StatsExtractor.new(
       JSON.parse(
         Net::HTTP.get(
